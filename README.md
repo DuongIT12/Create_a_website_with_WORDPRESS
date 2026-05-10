@@ -8,7 +8,7 @@
 <img width="779" height="92" alt="Untitled" src="https://github.com/user-attachments/assets/ef07e031-898c-43e9-b939-e6160e491579" />  
 
 - Nội dung cấu hình trong file **.yml**   
-<img width="1475" height="753" alt="image" src="https://github.com/user-attachments/assets/9e4737a3-d68a-4bce-a469-051e3120a8ca" />
+<img width="1475" height="753" alt="Untitled3" src="https://github.com/user-attachments/assets/f9620aa6-3ab0-42aa-8d4e-65c6f184d233" />
 
 - Chạy lệnh *docker compose up -d* để cài đặt   
 <img width="1476" height="687" alt="image" src="https://github.com/user-attachments/assets/048bbdd1-cfb1-49ea-9bac-f69714c72eb4" />
