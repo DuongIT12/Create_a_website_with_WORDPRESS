@@ -40,23 +40,23 @@
 <img width="1906" height="969" alt="image" src="https://github.com/user-attachments/assets/992fca9e-0deb-401f-9458-095cf9ac47e2" />
 
 
-# Nhận xét việc sử dụng WordPress mã nguồn mở trên nền tảng Docker
+## Nhận xét việc sử dụng WordPress mã nguồn mở trên nền tảng Docker
 
-## 1. Về công sức triển khai
+### 1. Về công sức triển khai
 - Việc kết hợp **WordPress** với **Docker** giúp tiết kiệm thời gian đáng kể.  
 - Thay vì cài đặt thủ công từng thành phần (Apache/Nginx, PHP, MariaDB), mọi thứ đã được đóng gói sẵn thành các **image**.  
 - Chỉ cần định nghĩa trong file `docker-compose.yml` và chạy một lệnh duy nhất, toàn bộ hệ thống (Web, Database, UI quản lý) khởi động và liên kết với nhau trong vài phút.
 
 ---
 
-## 2. Mức độ dễ/khó sử dụng
+### 2. Mức độ dễ/khó sử dụng
 - **Dashboard** của WordPress trực quan, thân thiện.  
 - **Block Editor** hỗ trợ kéo thả văn bản, hình ảnh, âm thanh, video dễ dàng, không cần viết code frontend.  
 - Tích hợp sẵn **phpMyAdmin** giúp quản trị cơ sở dữ liệu MariaDB qua giao diện web, loại bỏ sự phức tạp khi thao tác bằng SQL trên terminal.
 
 ---
 
-## 3. Mức độ tiêu tốn tài nguyên máy chủ (RAM / CPU)
+### 3. Mức độ tiêu tốn tài nguyên máy chủ (RAM / CPU)
 - Kiến trúc container hóa kiểm soát tài nguyên tốt.  
 - Trung bình:
   - MariaDB: 150–300MB RAM  
@@ -68,14 +68,14 @@
 
 ---
 
-## 4. Khía cạnh bảo mật mạng và kết nối (SSH / Network)
+### 4. Khía cạnh bảo mật mạng và kết nối (SSH / Network)
 - Mã nguồn WordPress thường xuyên được cộng đồng cập nhật bản vá bảo mật.  
 - Hạ tầng mạng an toàn nhờ **Cloudflare Tunnel**, không cần mở port trực tiếp trên router.  
 - Máy chủ không phải công khai IP ra internet, giảm nguy cơ bị hacker rà quét hoặc brute-force vào SSH.
 
 ---
 
-## ✅ Kết luận
+### ✅ Kết luận
 Sử dụng **WordPress mã nguồn mở** kết hợp với **Docker** là giải pháp tối ưu:  
 - Triển khai nhanh chóng  
 - Quản trị nội dung dễ dàng  
